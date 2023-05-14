@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Mulish;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol, li {
+    list-style: style;
+}
+h1,h2,h3 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+header {
+    position: absolute;
+    width: 1313px;
+    height: 565px;
+    left: 320px;
+    top: 229px;
+
+}
+navbar {    
+    position: absolute;
+    width: 1920px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+.logo {
+    position: absolute;
+    left: 10.73%;
+    right: 72.55%;
+    top: 1.11%;
+    bottom: -63.33%;
+}
+nav {
+    position: absolute;
+    left: 20px;
+    right: 50px;
+    top: 20px;
+    bottom: 10px;
+}
+.palka {
+    position:relative;
+    height: 20px;
+    right: 500px;
+}
+.text {
+    position: absolute;
+    width: 624px;
+    height: 452px;
+    left: 320px;
+    top: 252px;
+    font-weight: 40px;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    left: 10px;
+    right: 10px;
+    background: #FF6433;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.comp {
+    font-size: 50px;
+}
+.rabota {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 600px;
+    top: -150px;
+
+}
+a {
+    position: relative;
+    right: 500px;
+}
+.nomer1 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    right:500px;
+    bottom: 10px;
+}
+.nomer {
+    position:relative;
+    bottom:10px;
+}
+.nomer_text {
+    position:absolute;
+    left: 20px;
+    top: 10px;
+    color: black;
+}
+.otkrit {
+    position:absolute;
+    top: 240px;
+    color: #1E1B1B;
+    font-weight:600px;
+    font-size:18px;
+}
+.grant {
+    position:absolute;
+    width:1922px;
+    height:880px;
+    top:930px;
+    background: #E2E6E9;
+}
+.grant1 {
+    position:absolute;
+    width:546px;
+    height:296px;
+    right:1050px;
+    top:150px;
+    font-weight:800;
+    font-size: 58px;
+}
+.servis {
+    position: absolute;
+    width: 385px;
+    height: 132px;
+    left: 370px;
+    top: 285px;
+    font-weight:600;
+    font-size:24px;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+.icon {
+    position:absolute;
+    width: 47px;
+    height: 59px;
+    left: 320px;
+    top:300px;
+}
+.icon1 {
+    position:absolute;
+    width: 47px;
+    height: 59px;
+    left: 320px;
+    top: 475px;    
+}
+.icon2 {
+    position:absolute;
+    width: 47px;
+    height: 59px;
+    left: 320px;
+    top: 650px;       
+}
+.rabota_nedavno {
+    position:absolute;
+    width:322px;
+    height:70px;
+    right:1214px;
+    top: 350px;
+    margin-top: 10px;
+    font-size:16px;
+    font-weight: 600;
+    opacity:60%; 
+}
+.rabotniki {
+    position:absolute;
+    width: 195px;
+    height: 72px;
+    left: 370px;
+    top: 450px;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-weight:600;
+    font-size:24px;
+}
+.rabotniki1 {
+    position: absolute;
+    width: 322px;
+    height: 70px;
+    right: 1214px;
+    top: 550px;
+    font-size:16px;
+    font-weight: 600;
+    opacity:60%;     
+}
+.zakazi {
+    position:absolute;
+    width: 195px;
+    height: 72px;
+    left: 370px;
+    top: 650px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    font-weight:600;
+    font-size:24px;    
+}
+.zakazi1 {
+    position: absolute;
+    width: 322px;
+    height: 73px;
+    right: 1214px;
+    top: 700px;    
+    font-size:16px;
+    font-weight: 600; 
+    margin-bottom:20px;
+    opacity:60%;  
+}
+.uznat {
+    position: absolute;
+    width: 272px;
+    height: 40px;
+    left: 358px;
+    top: 850px;
+    font-weight:600px;
+    font-size:18px;
+}
+.zakazhite {
+    position: absolute;
+    width: 605px;
+    height: 136px;
+    right: 339px;
+    top: 100px;
+    font-weight:700px;
+    font-size:48px;    
+}
+.text_input1 {
+    position: absolute;
+    width: 643px;
+    height: 73px;
+    left: 976px;
+    top: 250px;
+    margin-bottom: 4px;;    
+}
+.text_input2 {
+    position: absolute;
+    width: 643px;
+    height: 73px;
+    left: 976px;
+    top: 325px; 
+}
+.text_input3 {
+    position: absolute;
+    width: 643px;
+    height: 73px;
+    left: 976px;
+    top: 400px; 
+}
+.text_input4 {
+    position: absolute;
+    width: 643px;
+    height: 73px;
+    left: 976px;
+    top: 475px; 
+}
+.button_in_grant {
+    padding: 16px 40px;
+    gap: 10px;
+    position: relative;
+    left: 1000px;
+    top: 550px;
+    background: #FF6433;
+    border-radius: 12px;    
+}
